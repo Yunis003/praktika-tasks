@@ -5,6 +5,15 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100%;
+}
+header{
+    width: 90%;
+}
+main{
+    width: 90%;
+}
 img{
     width: 112px;
     height: 66px;
@@ -15,11 +24,11 @@ img{
     width: 22px;
     height: 21px;
 }
-.Watch{
+.watch{
     width: 22px;
     height: 22px;
 }
-.Calendar{
+.calendar{
     width: 20px;
     height: 22px;
 }
