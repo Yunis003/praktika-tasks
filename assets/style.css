@@ -53,10 +53,10 @@ body{
     gap: 30px;
 }
 .card{
-    max-width: 330px;
+    width: 330px;
     min-width: 180px;
-    height: 240px;
-    box-shadow: 0 0 7px rgb(95, 95, 95);
+    height: 250px;
+    box-shadow: 0 0 1px rgb(95, 95, 95);
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -64,6 +64,9 @@ body{
     gap: 10px;
 }
 .card img{
+
+    border-top-left-radius:26px;
+    border-top-right-radius:26px;
     width: 100%;
 }
 .inner-card{
@@ -77,9 +80,6 @@ body{
 }
 
 @media  screen and (max-width:834px){
-    .cards-cont{
-        background-color: aqua;
-    }
     .inner-cont h2, .cards-cont h2{
         font-size: 32px;
     }
