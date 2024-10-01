@@ -56,17 +56,12 @@ body{
     width: 330px;
     min-width: 180px;
     height: 250px;
-    box-shadow: 0 0 1px rgb(95, 95, 95);
-    border-radius: 25px;
     display: flex;
     flex-direction: column;
     align-items:center;
     gap: 10px;
 }
 .card img{
-
-    border-top-left-radius:26px;
-    border-top-right-radius:26px;
     width: 100%;
 }
 .inner-card{
