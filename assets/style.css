@@ -53,34 +53,121 @@ body{
     gap: 30px;
 }
 .card{
-    width: 330px;
+    width: 385px;
     min-width: 180px;
-    height: 250px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     align-items:center;
     gap: 10px;
+    box-shadow:0 0 .5px rgb(92, 92, 92);
+    border-radius: 25px;
 }
 .card img{
     width: 100%;
 }
 .inner-card{
-    width: 95%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .inner-card h3{
-    margin-bottom: 24px;
+    height: 3rem;
 }
 .inner-card p{
     font-size: 14px;
 }
 
-@media  screen and (max-width:834px){
+@media  screen and (min-width:1009px) and (max-width:1250px){
     .inner-cont h2, .cards-cont h2{
         font-size: 32px;
     }
+    .inner-card{
+        width: 92%;
+        gap: 5px;
+    }
+    .inner-card p{
+        font-size: 13px;
+    }
+    .inner-card h3{
+        font-size: 18px;
+    }
     .card{
-        width: 181px;
-        height: 200px;
+        width: 31%;
+        height: 235px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1008px){
+    .card{
+        width: 30%;
+        height: 215px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:991px){
+    .cards-cont{
+        width: 220%;
+    }
+    .cards-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .card{
+
+        width: 50%;
+        height: 540px;
+
+    }
+    .inner-card{
+        gap: 1.5rem;
+    }
+    .inner-cont ul {
+        font-size: 33px;
+    }
+    .inner-card h3{
+        font-size: 40px;
+    }
+    .inner-card p{
+        font-size: 27px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:942px){
+    .inner-card{
+        gap: 2rem;
+    }
+}
+@media screen and (min-width:320px) and (max-width:900px){
+    .card{
+        height: 25%;
+    }
+    .texts{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:540px) {
+    .inner-card h3{
+        font-size: 25px;
+    }
+    .inner-card p{
+        font-size: 17px;
     }
     
+}
+@media screen and (min-width:320px) and (max-width:400px){
+    .inner-cont ul{
+        font-size: 20px;
+    }
+    .inner-card{
+        gap: 1rem;
+    }
+    .inner-card h3{
+        font-size: 20px;
+    }
+    .inner-card p{
+        font-size: 14px;
+    }
 }
