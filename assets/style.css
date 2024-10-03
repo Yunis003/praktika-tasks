@@ -293,3 +293,12 @@ body{
         font-size: 19px;
     }
 }
+@media screen and (min-width:320px) and (max-width:350px){
+    .inner-cont h2, .cards-cont h2{
+        margin-left: 0;
+        font-size: 45px;
+    }
+    .card{
+        margin-left: 40px;
+    }
+}
