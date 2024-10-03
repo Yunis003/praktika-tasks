@@ -15,7 +15,6 @@ body {
 #contener {
     width: 100%;
     background-color: #EEEEEE;
-    height: 780px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,13 +22,14 @@ body {
 }
 
 .four {
-    width: 80%;
+    width: 85%;
 }
 
 .h1-four {
     font-family: "Roboto Slab", serif;
-    margin-bottom: 40px;
-    font-size: 45px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-size: 300%;
 }
 
 .select-four {
@@ -37,41 +37,44 @@ body {
 }
 
 .general {
-    width: 70%;
-    height: 450px;
+    width: 60%;
     border-radius: 5%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 10%;
 }
 
 .main {
-    width: 98%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 .text {
     width: 93%;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 110%;
+    margin-left: 5%;
+    margin-top: 8%;
+    margin-bottom: 3%;
 }
 
 .girl {
-    width: 190px;
-    height: 170px;
+    width: 25%;
 }
 
 .fb {
+    margin-bottom: 5%;
     border-radius: 3%;
     display: flex;
     gap: 10px;
 }
 
 .inner-cont {
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -79,13 +82,11 @@ body {
 }
 
 .inner-cont img {
-    width: 30px;
-    height: 30px;
+    width: 15%;
 }
 
 #green {
     width: 100%;
-    height: 780px;
     padding-left: 10%;
     display: flex;
     align-items: center;
@@ -94,54 +95,54 @@ body {
 
 .h1-four-green {
     font-family: "Roboto Slab", serif;
-    font-size: 45px;
-    padding-top: 45px;
-    padding-bottom: 54px;
+    font-size: 300%;
+    margin-top: 15%;
+    margin-bottom: 8%;
 }
 
 .box-one {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
+    width: 30%;
     row-gap: 15px;
 }
 
 .green-p-one {
-    font-size: 25px;
+    font-size: 200%;
 }
 
 .green-p-tree {
-    font-size: 80px;
-    margin-bottom: 40px;
+    font-size: 500%;
+    margin-bottom: 8%;
 }
 
 .green-p-two {
-    font-size: 18px;
+    font-size: 1500%;
 }
 
 .inner-box {
-    width: 85%;
-    font-size: 20px;
+    width: 100%;
+    font-size: 10%;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 60px;
+    margin-bottom: 20%;
 }
 
 .green-p-four {
-    font-size: 25px;
+    font-size: 1900%;
 }
 
 #black {
     width: 100%;
-    height: 390px;
     background-color: #000000;
 }
 
 .inner-connection p {
-    margin-left: 15px;
+    margin-left: 8%;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 120%;
 }
 
 .connection {
@@ -157,219 +158,96 @@ body {
 
 .inner-foot {
     padding-left: 10%;
-    padding-top: 50px;
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
 }
 
 .connect {
-    margin-top: 30px;
-    margin-right: 10px;
+    margin-top: 5%;
 }
-
+.connect img{
+    width: 3%;
+}
 .inner-connection img {
-    width: 33px;
-    height: 33px;
+    width: 12%;
 }
 
 .c {
-    font-size: 13px;
-    margin-top: 170px;
+    font-size: 100%;
+    margin-top: 15%;
+    margin-bottom: 2%;
     color: #FFFFFF;
 }
 
 .sinxro-logo {
-    width: 115px;
-    height: 68px;
+    width: 10%;
 
 }
-
+#contener h3 {
+    width: 150%;
+    font-size: 115%;
+}
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
-    #contener {
-        height: 450px;
+    .h1-four-green {
+        font-family: "Roboto Slab", serif;
+        font-size: 290%;
+        margin-top: 15%;
+        margin-bottom: 8%;
     }
-
-    #contener h3 {
-        font-size: 14px;
-    }
-
-    .general {
-        height: 260px;
-    }
-
-    .text {
-        font-size: 12px;
-    }
-
-    .h1-four {
-        font-size: 22px;
-    }
-
-    .girl {
-        width: 110px;
-        height: 100px;
-    }
-
-    .inner-cont img {
-        width: 18px;
-        height: 18px;
-    }
-
-    #green {
-        height: 450px;
-    }
-
-    .box-one {
-        width: 170px;
-    }
-
+    
     .green-p-one {
-        font-size: 14px;
+        font-size: 190%;
     }
-
+    
     .green-p-tree {
-        font-size: 46px;
-        margin-bottom: 20px;
+        font-size: 490%;
     }
-
+    
     .green-p-two {
-        font-size: 10px;
+        font-size: 1490%;
     }
-
+    .inner-box {
+        font-size: 8%;
+    }
     .green-p-four {
-        font-size: 14px;
+        font-size: 1890%;
     }
-    .h1-four-green{
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    #black {
-        height: 260px;
-    }
-
     .inner-connection p {
-        font-size: 14px;
-    }
-
-    .inner-connection img {
-        width: 15px;
-        height: 15px;
-    }
-
-    .c {
-        font-size: 10px;
-        margin-top: 85px;
-    }
-
-    .sinxro-logo {
-        width: 67px;
-        height: 40px;
+        font-size: 110%;
     }
 }
-
-@media screen and (min-width: 320px) and (max-width: 991px) {
-    #contener {
-        height: 410px;
-    }
-
-    .general {
-        width: 75%;
-        height: 200px;
-    }
-
-    #contener h3 {
-        width: 250px;
-        font-size: 10px;
-    }
-
-    .text {
-        font-size: 8px;
-        margin-bottom: 0;
-        padding: 0;
-    }
-
-    .h1-four {
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-
-    .girl {
-        width: 60px;
-        height: 60px;
-    }
-
-    .inner-cont img {
-        width: 15px;
-        height: 17px;
-    }
-
-    #green {
-        padding-left: 12%;
-        height: 364px;
-    }
-
+@media screen and (min-width: 320px ) and ( max-width: 992px ) {
     .h1-four-green {
-        width: 190px;
-        font-size: 22px;
-        margin-bottom: 0;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        font-family: "Roboto Slab", serif;
+        font-size: 280%;
+        margin-top: 15%;
+        margin-bottom: 8%;
     }
-
-    .box-one {
-        row-gap: 5px;
-        width: 138px;
-    }
-
+    
     .green-p-one {
-        font-size: 12px;
+        font-size: 180%;
     }
-
+    
     .green-p-tree {
-        font-size: 37px;
-        margin-bottom: 20px;
+        font-size: 450%;
     }
-
+    
     .green-p-two {
-        font-size: 10px;
+        width: 100%;
+        font-size: 1480%;
     }
-
+    .inner-box {
+        width: 90%;
+        font-size: 8%;
+    }
     .green-p-four {
-        font-size: 12px;
+        width: 100%;
+        font-size: 1880%;
     }
-
-    #black {
-        height: 251px;
-    }
-
-    .inner-foot {
-        padding-left: 12%;
-        padding-top: 30px;
-    }
-
     .inner-connection p {
-        font-size: 12px;
+        font-size: 100%;
     }
-
-    .inner-connection img {
-        width: 12px;
-        height: 12px;
-    }
-
-    .c {
-        font-size: 10px;
-        margin-top: 90px;
-    }
-
-    .sinxro-logo {
-        width: 54px;
-        height: 32px;
-    }
-
-    .inner-logo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+    
 }
