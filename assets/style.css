@@ -54,7 +54,7 @@ body{
     gap: 30px;
 }
 .card{
-    width: 385px;
+    width: 383px;
     min-width: 180px;
     height: 270px;
     display: flex;
