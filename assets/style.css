@@ -1,48 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.all{
+
+.all {
     width: 85%;
 }
-header{
+
+header {
     width: 92%;
 }
-.logo{
+
+.logo {
     width: 112px;
     height: 66px;
-    margin-top: 2%; 
+    margin-top: 2%;
     /* vozmojno pomenayu na px */
 }
-.icon{
+
+.icon {
     width: 24px;
     height: 24px;
 }
-.icons{
+
+.icons {
     display: flex;
-    align-items:last baseline;
+    align-items: last baseline;
     gap: 7px;
-} 
-.properties{
+}
+
+.properties {
     font-family: "Roboto", sans-serif;
     font-size: 23px;
 }
-.kurs{
+
+.kurs {
     margin-top: 4.3%;
     display: flex;
     gap: 2.7%;
     margin-left: 0.1%;
 }
-.headline{
+
+.headline {
     width: 708px;
     height: 190px;
     font-weight: 700;
@@ -51,30 +61,36 @@ header{
     line-height: 100%;
     margin-top: 30px;
 }
-.filmprocess{
+
+.filmprocess {
     font-size: 23px;
     font-family: "Roboto", sans-serif;
     width: 490px;
     height: 62px;
 }
-.chairman{
+
+.chairman {
     width: 390px;
     height: 390px;
 }
-.film{
+
+.film {
     display: flex;
     justify-content: space-between;
 }
-.inscription{
+
+.inscription {
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
-.block{
+
+.block {
     display: flex;
     justify-content: center;
 }
-.author{
+
+.author {
     font-family: "Roboto Slab", serif;
     background-color: #1E4681;
     color: white;
@@ -88,191 +104,232 @@ header{
     gap: 10px;
     margin-top: 100px;
 }
-.words{
+
+.words {
     font-size: 27px;
     width: 420px;
 }
-.authors{
+
+.authors {
     width: 450px;
     display: flex;
     justify-content: flex-end;
 }
+
 @media screen and (min-width: 992px) and (max-width:1279px) {
-    
-    .logo{
+
+    .logo {
         width: 90px;
         height: 55px;
         margin-top: 2%;
     }
-    .icon{
+
+    .icon {
         width: 17px;
         height: 17px;
     }
-    .icons{
+
+    .icons {
         gap: 4px;
     }
-    .properties{
+
+    .properties {
         font-size: 18px;
     }
-    .headline{
+
+    .headline {
         width: 570px;
         height: 110px;
         font-size: 74px;
         margin-top: 10px;
     }
-    .filmprocess{
+
+    .filmprocess {
         font-size: 19px;
         width: 400px;
         height: 36px;
     }
-    .chairman{
+
+    .chairman {
         width: 250px;
         height: 250px;
     }
-    .inscription{
+
+    .inscription {
         gap: 50px;
     }
-    .author{
+
+    .author {
         width: 400px;
         height: 170px;
         border-radius: 5px;
         gap: 10px;
         margin-top: 80px;
     }
-    .words{
+
+    .words {
         font-size: 20px;
         width: 330px;
     }
-    .authors{
+
+    .authors {
         width: 350px;
     }
 }
-@media screen and (min-width: 663px) and (max-width:991px){
-    .logo{
+
+@media screen and (min-width: 663px) and (max-width:991px) {
+    .logo {
         margin-top: 40px;
         width: 100px;
         height: 60px;
     }
-    .icon{
+
+    .icon {
         width: 15px;
         height: 15px;
     }
-    .icons{
+
+    .icons {
         gap: 4px;
         align-items: center;
-    } 
-    .calendar_2{
+    }
+
+    .calendar_2 {
         margin-left: -25px;
     }
-    .properties{
+
+    .properties {
         font-size: 16px;
         width: 95px;
     }
-    .headline{
+
+    .headline {
         width: 418px;
         height: 110px;
         font-size: 55px;
         margin-top: 13px;
     }
-    .filmprocess{
+
+    .filmprocess {
         font-size: 15px;
         width: 320px;
         height: 40px;
     }
-    .chairman{
+
+    .chairman {
         width: 260px;
         height: 260px;
         display: flex;
         align-self: flex-end;
     }
-    .inscription{
+
+    .inscription {
         gap: 13px;
     }
-    .film{
+
+    .film {
         display: flex;
         flex-direction: column;
     }
-    .author{
+
+    .author {
         width: 340px;
         height: 180px;
         border-radius: 5px;
         gap: 10px;
         margin-top: 40px;
     }
-    .words{
+
+    .words {
         font-size: 19px;
         width: 290px;
     }
-    .authors{
+
+    .authors {
         width: 260px;
         font-size: 16px;
     }
-    .block{
+
+    .block {
         display: flex;
         justify-content: flex-start;
     }
 }
-@media screen and (min-width: 320px) and (max-width:663px){
-    .logo{
+
+@media screen and (min-width: 320px) and (max-width:663px) {
+    .logo {
         margin-top: 40px;
         width: 80px;
         height: 50px;
     }
-    .icon{
+
+    .icon {
         width: 13px;
         height: 13px;
     }
-    .icons{
+
+    .icons {
         gap: 4px;
         align-items: center;
-    } 
-    .calendar_2{
+    }
+
+    .calendar_2 {
         margin-left: -29px;
     }
-    .properties{
+
+    .properties {
         font-size: 13px;
         width: 82px;
     }
-    .headline{
+
+    .headline {
         width: 278px;
         height: 80px;
         font-size: 39px;
         margin-top: 17px;
     }
-    .filmprocess{
+
+    .filmprocess {
         font-size: 13px;
         width: 275px;
         height: 31px;
     }
-    .chairman{
+
+    .chairman {
         width: 180px;
         height: 180px;
         display: flex;
         align-self: flex-end;
     }
-    .inscription{
+
+    .inscription {
         gap: 10px;
     }
-    .film{
+
+    .film {
         display: flex;
         flex-direction: column;
     }
-    .author{
+
+    .author {
         width: 280px;
         height: 100px;
         border-radius: 5px;
         gap: 5px;
         margin-top: 50px;
     }
-    .words{
+
+    .words {
         font-size: 13px;
         width: 210px;
     }
-    .authors{
+
+    .authors {
         width: 255px;
         font-size: 13px;
     }
-    .block{
+
+    .block {
         display: flex;
         justify-content: flex-start;
     }
