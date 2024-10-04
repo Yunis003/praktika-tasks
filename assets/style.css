@@ -147,7 +147,7 @@ header{
         width: 350px;
     }
 }
-@media screen and (min-width: 664px) and (max-width:991px){
+@media screen and (min-width: 663px) and (max-width:991px){
     .logo{
         margin-top: 40px;
         width: 100px;
@@ -242,7 +242,7 @@ header{
     .filmprocess{
         font-size: 13px;
         width: 275px;
-        height: 30px;
+        height: 31px;
     }
     .chairman{
         width: 180px;
