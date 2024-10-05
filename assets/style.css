@@ -51,18 +51,18 @@ body{
     display: flex;
     align-items:center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
 }
 .card{
-    width: 383px;
+    width: 500px;
     min-width: 180px;
-    height: 270px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     align-items:center;
     gap: 10px;
     box-shadow:0 0 10px rgb(92, 92, 92);
-    border-radius: 29px;
+    border-radius: 38px;
 }
 .card img{
     width: 100%;
@@ -94,9 +94,17 @@ body{
         font-size: 18px;
     }
     .card{
-        width: 31%;
+        width: 30%;
         height: 220px;
         border-radius:25px
+    }
+}
+@media screen and (min-width:992px) and (max-width:1194px){
+.cards-list{
+    background-color: aqua;
+}
+    .card{
+        width: 29.5%;
     }
 }
 @media screen and (min-width:1009px) and (max-width:1116px){
@@ -111,13 +119,18 @@ body{
     border-radius:23px
 }
 }
+@media screen and (min-width:992px) and (max-width:1040px){
+    .card{
+        width: 29%;
+    }
+}
 
-@media screen and (min-width:992px) and (max-width:1008px){
+@media screen and (min-width:992px) and (max-width:1009px){
     .inner-card{
         gap: 23px;
     }
     .card{
-        width: 30%;
+        width: 29%;
         height: 215px;
     }
     .inner-card h3{
@@ -130,22 +143,21 @@ body{
     }
 }
 
-@media screen and (min-width:320px) and (max-width:991px){
-    .inner-cont ul{
-        width: 900px;
-        margin-left: 190px;
+@media screen and (min-width:320px) and (max-width:992px){
+    .inner-cont ul li{
+        width: 600px;
+        font-size: 20px;
     }
     .inner-card h3{
         width: fit-content;
         margin-bottom: 20px;
     }
     .inner-cont h2, .cards-cont h2{
-        margin-left: 130px;
-        font-size: 75px;
+        font-size: 45px;
     }
-    .cards-cont{
+    /* .cards-cont{
         width: 220%;
-    }
+    } */
     .cards-list{
         flex-direction: column;
         align-items: center;
@@ -153,49 +165,47 @@ body{
         gap: 100px;
     }
     .card{
-        border-radius:80px;
         width: 50%;
-        height: 640px;
-
+        height: 310px;
+        border-radius: 33px;
     }
     .inner-card{
-        gap: 90px;
-    }
-    .inner-cont ul {
-        font-size: 33px;
+        gap: 30px;
     }
     .inner-card h3{
-        font-size: 55px;
+        font-size: 30px;
     }
     .inner-card p{
-        font-size: 30px;
+        font-size: 17px;
     }
 }
 @media screen and (min-width:320px) and (max-width:972px){
     .card{
-        border-radius:64px
+        border-radius:36px
     }
     .inner-card{
-        gap: 100px;
+        gap: 29px;
     }
 }
 @media screen and (min-width:320px) and (max-width:900px){
     .inner-cont h2, .cards-cont h2{
-        font-size: 56px;
+        font-size: 40px;
     }
-    
+    .cards-list{
+        gap: 40px;
+    }
     .card{
         height: 25%;
-        border-radius:55px
+        border-radius:30px
     }
     .inner-card{
-        gap: 50px;
+        gap: 20px;
     }
     .inner-card h3{
-        font-size: 48px;
+        font-size: 28px;
     }
     .inner-card p{
-        font-size: 28px;
+        font-size: 16px;
     }
     .texts{
         margin-bottom: 20px;
@@ -203,104 +213,163 @@ body{
 }
 @media screen and (min-width:320px) and (max-width:898px){
     .card{
-        border-radius: 63px;
+        border-radius: 28px;
     }
 }
 @media screen and (min-width:320px) and (max-width:848px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 35px;
+    }
+    .inner-card h3{
+        font-size: 24px;
+    }
+    .inner-card p{
+        font-size: 15px;
+    }
     .card{
-        border-radius:58px
+        border-radius:27px
     }
 }
 @media screen and (min-width:320px) and (max-width:821px){
+    .inner-cont ul{
+        width: 500px;
+    }
+    .inner-cont ul li{
+        width: 500px;
+        font-size: 16px;
+    }
     .card{
-        border-radius:54px
+        border-radius:25px
     }
 }
 @media screen and (min-width:320px) and (max-width:720px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 30px;
+    }
+    .inner-card h3{
+        font-size: 21px;
+    }
+    .inner-card p{
+        font-size: 14px;
+    }
     .card{
-        border-radius:48px
+        border-radius:24px
     }
 }
 @media screen and (min-width:320px) and (max-width:684px){
+    .inner-card{
+        gap: 10px;
+    }
     .inner-cont h2, .cards-cont h2{
-        font-size: 50px;
+        font-size: 30px;
     }
     .inner-cont ul{
-        width: 600px;
-        font-size: 24px;
+        font-size: 10px;
+        margin-left: 40px;
     }
     .inner-card h3{
-        font-size: 35px;
+        font-size:19px;
     }
     .card{
-        border-radius: 46px;
+        border-radius: 23px;
+        height: 220px;
     }
     .inner-card p{
-        font-size: 23px;
+        font-size: 13px;
     }
 }
 @media screen and (min-width:320px) and (max-width:627px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 27px;
+    }
+    .inner-cont ul li{
+        width: 350px;
+        font-size: 14px;
+    }
     .card{
-        border-radius:43px
+        border-radius:20px;
+        height: 205px;
     }
 }
 @media screen and (min-width:400px) and (max-width:540px) {
     .inner-cont h2, .cards-cont h2{
-        margin-left: 25px;
-        font-size: 52px;
+        /* margin-left: 25px; */
+        font-size: 25px;
     }
     .inner-cont ul{
-        margin-left: 100px;
+        margin-left: 40px;
     }
     .inner-card{
-        gap: 40px;
+        gap: 15px;
     }
     .card{
-        border-radius: 38px;
+        border-radius: 16px;
+        height:195px;
     }
     .inner-card h3{
-        font-size: 33px;
+        font-size: 17px;
     }
     .inner-card p{
-        font-size: 21px;
+        font-size: 12px;
     }
     
 }
 @media screen and (min-width:320px) and (max-width:495px){
+    .inner-card{
+        gap: 5px;
+    }
+    .inner-cont ul li{
+        width: 300px;
+        font-size: 14px;
+    }
     .card{
-        border-radius:33px
+        height: 185px;
+        border-radius:16px;
+        height: 170px;
+    }
+    .inner-card h3{
+        font-size: 16px;
+    }
+    .inner-card p{
+        font-size: 12px;
     }
 }
 @media screen and (min-width:320px) and (max-width:400px){
     .inner-cont h2, .cards-cont h2{
-        margin-left: 10px;
-        font-size: 45px;
-    }
-    .inner-cont ul{
-        margin-left: 50px;
         font-size: 20px;
     }
+    .inner-cont ul{
+        margin-left: 20px;
+    }
+    .inner-cont ul li{
+        width: 270px;
+        font-size: 12px;
+    }
     .inner-card{
-        gap: 1rem;
+        gap: 5px;
     }
     .card{
-        border-radius:28px
+        border-radius:14px;
+        height: 170px;
     }
     .inner-card h3{
-        font-size: 25px;
+        font-size: 16px;
     }
     .inner-card p{
-        font-size: 19px;
+        font-size: 12px;
     }
 }
 @media screen and (min-width:320px) and (max-width:350px){
     .inner-cont h2, .cards-cont h2{
         margin-left: 0;
-        font-size: 45px;
+        font-size: 20px;
     }
-    .card{
+    /* .card{
         margin-left: 40px;
-    }
+    } */
+     .inner-cont ul li{
+        width: 230px;
+     }
 }
 .cards-container{
     margin-bottom: 85px;
