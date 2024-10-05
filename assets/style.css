@@ -54,9 +54,10 @@ body{
     align-items:center;
     flex-wrap: wrap;
     gap: 50px;
+    background-color: aqua;
 }
 .card{
-    width: 500px;
+    width: 31%;
     min-width: 180px;
     height: 320px;
     display: flex;
