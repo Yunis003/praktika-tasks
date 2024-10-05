@@ -16,6 +16,7 @@ body{
 
 /* Menim hissem */
 .informal-list{
+    margin-top: 100px;
     margin-bottom: 120px;
 }
 .informal-list, .cards-container{
