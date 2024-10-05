@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 body{
     width: 100%;
@@ -14,6 +13,8 @@ body{
     align-items: center;
     font-family: "Roboto", sans-serif;
 }
+
+/* Menim hissem */
 .informal-list{
     margin-bottom: 120px;
 }
@@ -36,7 +37,7 @@ body{
 }
 .inner-cont ul{
     margin-left: 50px;
-    font-size: 17px;
+    font-size: 19px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -100,9 +101,6 @@ body{
     }
 }
 @media screen and (min-width:992px) and (max-width:1194px){
-.cards-list{
-    background-color: aqua;
-}
     .card{
         width: 29.5%;
     }
@@ -374,3 +372,5 @@ body{
 .cards-container{
     margin-bottom: 85px;
 }
+/* Menim hissem bitdi */
+
