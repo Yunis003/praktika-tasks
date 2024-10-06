@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-direction: column;
 }
 
 .all {
@@ -26,7 +27,6 @@ header {
     width: 112px;
     height: 66px;
     margin-top: 2%;
-    /* vozmojno pomenayu na px */
 }
 
 .icon {
