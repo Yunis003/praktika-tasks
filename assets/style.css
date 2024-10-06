@@ -581,6 +581,9 @@ header {
 }
 
 @media screen and (min-width: 320px) and (max-width: 992px) {
+    .inner-cont1 img{
+        width: 20%;
+    }
     .h-four-green {
         font-family: "Roboto Slab", serif;
         font-size: 280%;
@@ -628,14 +631,104 @@ header {
     }
 
     .inner-connection p {
-        margin-left: 3%;
+        /* margin-left: 3%; */
         font-size: 100%;
     }
 
 }
+@media screen and (min-width: 320px) and (max-width: 848px){
+    .h-four, .h-four-green{
+        font-size: 35px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .green-p-tree{
+        font-size: 50px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:720px){
+    .h-four, .h-four-green{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 17px;
+    }
+    .green-p-tree{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .h-four{
+        font-size: 30px;
+    }
+    .h-four-green{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 568px){
+    .text{
+        font-size: 15px;
+    }
+    .inner-cont1 img{
+        width: 20%;
+    }
+    #black p{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 510px){
+    .h-four{
+        font-size: 23px;
+    }
+    .h-four-green{
+        font-size: 26px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .sinxro-logo img{
+        width: 85px;
+    }
+    .inner-connection img{
+        width: 25px;
+    }
+    .connect img{
+        width: 26px;
+    }
+    #black p{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 470px){
+    .inner-cont1{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 426px){
+    .text{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .text{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 376px){
+    .inner-cont1{
+        font-size: 11px;
+    }
+}
+
+/*!!! GULTAC */
 
 
-/* Menim hissem */
+/*!! Menim hissem */
+
 .informal-list{
     margin-top: 100px;
     margin-bottom: 120px;
@@ -914,7 +1007,7 @@ header {
     }
     .inner-cont ul li{
         width: 350px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .card{
         border-radius:20px;
@@ -933,6 +1026,7 @@ header {
         gap: 15px;
     }
     .card{
+        width: 240px;
         border-radius: 16px;
         height:195px;
     }
@@ -950,12 +1044,13 @@ header {
     }
     .inner-cont ul li{
         width: 300px;
-        font-size: 14px;
+        font-size: 15px;
     }
     .card{
+        height: 180px;
+        border-radius:18px;
         height: 185px;
-        border-radius:16px;
-        height: 170px;
+
     }
     .inner-card h3{
         font-size: 16px;
@@ -979,8 +1074,9 @@ header {
         gap: 5px;
     }
     .card{
-        border-radius:14px;
-        height: 170px;
+        width: 230px;
+        border-radius:18px;
+        height: 190px;
     }
     .inner-card h3{
         font-size: 16px;
@@ -1006,7 +1102,7 @@ header {
 }
 /* Menim hissem bitdi */
 
-/* Nergiz */
+/*?? Nergiz */
 
 .styles {
     width: 85%;
@@ -1233,6 +1329,45 @@ header {
         display: none;
     }
 }
+@media screen and (min-width:320px) and (max-width:848px){
+    .types{
+        font-size: 35px;
+    }
+    .infoname{
+        font-size: 35px;
+    }
+    .paragraph{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:720px){
+    .types, .infoname{
+        font-size: 30px;
+    }
+    .paragraph{
+        font-size: 21px;
+    }
+    .box{
+        font-size: 16px;
+    }
+    .type{
+        font-size: 19px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:684px){
+    .types, .infoname{
+        font-size: 27px;
+    }
+    .paragraph{
+        font-size: 20px;
+    }
+    .box{
+        font-size: 15px;
+    }
+    .type{
+        font-size: 17px;
+    }
+}
 
 @media screen and (min-width: 518px) and (max-width:632px) {
     .camera {
@@ -1245,7 +1380,7 @@ header {
     .paragraph {
         width: 100%;
         height: 400px;
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
@@ -1265,12 +1400,17 @@ header {
     .info {
         width: 100%;
     }
-
+    .infoname{
+        font-size: 30px;
+    }
+    .types{
+        font-size: 25px;
+    }
     .paragraph {
         width: 100%;
         height: 410px;
         font-size: 20px;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .camera {
@@ -1293,9 +1433,9 @@ header {
         font-size: 20px;
     }
 
-    .types {
-        font-size: 31px;
-    }
+
+
+
 
     .type {
         font-size: 15px;
@@ -1304,7 +1444,7 @@ header {
     }
 }
 
-@media screen and (min-width:363px) and (max-width:461px) {
+@media screen and (min-width:320px) and (max-width:461px) {
     .info {
         width: 100%;
     }
@@ -1312,15 +1452,33 @@ header {
     .paragraph {
         width: 100%;
         height: 365px;
-        font-size: 20px;
-        font-size: 18px;
+        font-size: 19px;
+
     }
 
     .camera {
-        width: 180px;
-        height: 160px;
+        width: 200px;
+        height: 190px;
         align-self: center;
     flex-direction: column;
+}
+@media screen and (min-width:320px) and (max-width:420px){
+    .paragraph{
+        font-size: 18px;
+    }
+
+}
+@media screen and (min-width:320px) and (max-width:388px){
+    .paragraph{
+        font-size: 17px;
+    }
+
+}
+@media screen and (min-width:320px) and (max-width:365px){
+    .paragraph{
+        font-size: 17px;
+    }
+
 }
 
 /* Lale */
