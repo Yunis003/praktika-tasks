@@ -1,15 +1,396 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-
 * {
+
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Menim hissem */
+.informal-list{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.informal-list, .cards-container{
+    width: 85%;
+}
+.cards-container{
+    margin-bottom: 100px;
+}
+.inner-cont{
+    width: 662px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.inner-cont h2, .cards-cont h2{
+    font-family: "Roboto Slab", serif;
+    font-size: 45px;
+
+}
+.inner-cont ul{
+    margin-left: 50px;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cards-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.cards-list{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: aqua;
+}
+.card{
+    width: 30%;
+    min-width: 180px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    box-shadow:0 0 10px rgb(92, 92, 92);
+    border-radius: 38px;
+}
+.card img{
+    width: 100%;
+}
+.inner-card{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.inner-card h3{
+    width: 320px;
+    font-size: 22px;
+    height: 20%;
+}
+.inner-card p{
+    font-size: 15px;
+}
+@media screen and (min-width:992px) and (max-width:1500px)
+{
+    .inner-card{
+        gap: 60px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1400px){
+    .card{
+        height: 290px;
+    }
+}
+@media  screen and (min-width:1009px) and (max-width:1279px){
+    .inner-card{
+        width: 92%;
+        gap: 25px;
+    }
+    .inner-card p{
+        font-size: 13px;
+    }
+    .inner-card h3{
+        font-size: 18px;
+    }
+    .card{
+        width: 30%;
+        height: 220px;
+        border-radius:25px
+    }
+}
+@media screen and (min-width:992px) and (max-width:1194px){
+    .card{
+        width: 29.5%;
+    }
+}
+@media screen and (min-width:1009px) and (max-width:1116px){
+
+.inner-card{
+    gap: 35px;
+}
+.inner-card h3{
+    width: fit-content;
+}
+.card{
+    border-radius:23px
+}
+}
+@media screen and (min-width:992px) and (max-width:1040px){
+    .card{
+        width: 29%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1009px){
+    .inner-card{
+        gap: 23px;
+    }
+    .card{
+        width: 29%;
+        height: 215px;
+    }
+    .inner-card h3{
+        width: fit-content;
+        font-size: 17px;
+        height: 40px;
+    }
+    .inner-card p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:992px){
+    .inner-cont ul li{
+        width: 600px;
+        font-size: 20px;
+    }
+    .inner-card h3{
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+    .inner-cont h2, .cards-cont h2{
+        font-size: 45px;
+    }
+    /* .cards-cont{
+        width: 220%;
+    } */
+    .cards-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .card{
+        width: 50%;
+        height: 310px;
+        border-radius: 33px;
+    }
+    .inner-card{
+        gap: 30px;
+    }
+    .inner-card h3{
+        font-size: 30px;
+    }
+    .inner-card p{
+        font-size: 17px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:972px){
+    .card{
+        border-radius:36px
+    }
+    .inner-card{
+        gap: 29px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:900px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 40px;
+    }
+    .cards-list{
+        gap: 40px;
+    }
+    .card{
+        height: 25%;
+        border-radius:30px
+    }
+    .inner-card{
+        gap: 20px;
+    }
+    .inner-card h3{
+        font-size: 28px;
+    }
+    .inner-card p{
+        font-size: 16px;
+    }
+    .texts{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:898px){
+    .card{
+        border-radius: 28px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:848px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 35px;
+    }
+    .inner-card h3{
+        font-size: 24px;
+    }
+    .inner-card p{
+        font-size: 15px;
+    }
+    .card{
+        border-radius:27px
+    }
+}
+@media screen and (min-width:320px) and (max-width:821px){
+    .inner-cont ul{
+        width: 500px;
+    }
+    .inner-cont ul li{
+        width: 500px;
+        font-size: 16px;
+    }
+    .card{
+        border-radius:25px
+    }
+}
+@media screen and (min-width:320px) and (max-width:720px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 30px;
+    }
+    .inner-card h3{
+        font-size: 21px;
+    }
+    .inner-card p{
+        font-size: 14px;
+    }
+    .card{
+        border-radius:24px
+    }
+}
+@media screen and (min-width:320px) and (max-width:684px){
+    .inner-card{
+        gap: 10px;
+    }
+    .inner-cont h2, .cards-cont h2{
+        font-size: 30px;
+    }
+    .inner-cont ul{
+        font-size: 10px;
+        margin-left: 40px;
+    }
+    .inner-card h3{
+        font-size:19px;
+    }
+    .card{
+        border-radius: 23px;
+        height: 220px;
+    }
+    .inner-card p{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:627px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 27px;
+    }
+    .inner-cont ul li{
+        width: 350px;
+        font-size: 14px;
+    }
+    .card{
+        border-radius:20px;
+        height: 205px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:540px) {
+    .inner-cont h2, .cards-cont h2{
+        /* margin-left: 25px; */
+        font-size: 25px;
+    }
+    .inner-cont ul{
+        margin-left: 40px;
+    }
+    .inner-card{
+        gap: 15px;
+    }
+    .card{
+        border-radius: 16px;
+        height:195px;
+    }
+    .inner-card h3{
+        font-size: 17px;
+    }
+    .inner-card p{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:495px){
+    .inner-card{
+        gap: 5px;
+    }
+    .inner-cont ul li{
+        width: 300px;
+        font-size: 14px;
+    }
+    .card{
+        height: 185px;
+        border-radius:16px;
+        height: 170px;
+    }
+    .inner-card h3{
+        font-size: 16px;
+    }
+    .inner-card p{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:400px){
+    .inner-cont h2, .cards-cont h2{
+        font-size: 20px;
+    }
+    .inner-cont ul{
+        margin-left: 20px;
+    }
+    .inner-cont ul li{
+        width: 270px;
+        font-size: 12px;
+    }
+    .inner-card{
+        gap: 5px;
+    }
+    .card{
+        border-radius:14px;
+        height: 170px;
+    }
+    .inner-card h3{
+        font-size: 16px;
+    }
+    .inner-card p{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:350px){
+    .inner-cont h2, .cards-cont h2{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    /* .card{
+        margin-left: 40px;
+    } */
+     .inner-cont ul li{
+        width: 230px;
+     }
+}
+.cards-container{
+    margin-bottom: 85px;
+}
+/* Menim hissem bitdi */
+
 
 body {
     display: flex;
@@ -653,3 +1034,4 @@ header {
         justify-content: flex-start;
     }
 }
+
