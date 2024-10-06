@@ -54,9 +54,10 @@ body{
     align-items:center;
     flex-wrap: wrap;
     gap: 50px;
+    background-color: aqua;
 }
 .card{
-    width: 29%;
+    width: 30%;
     min-width: 180px;
     height: 310px;
     display: flex;
@@ -83,7 +84,17 @@ body{
 .inner-card p{
     font-size: 15px;
 }
-
+@media screen and (min-width:992px) and (max-width:1500px)
+{
+    .inner-card{
+        gap: 60px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1400px){
+    .card{
+        height: 290px;
+    }
+}
 @media  screen and (min-width:1009px) and (max-width:1279px){
     .inner-card{
         width: 92%;
