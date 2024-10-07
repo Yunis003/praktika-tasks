@@ -736,7 +736,7 @@ header {
 
 @media screen and (min-width: 320px) and (max-width: 379px){
     #contener, #green, #black{
-        overflow-x: hidden;
+        width: 112%;
     }
     .inner-cont1{
         font-size: 11px;
