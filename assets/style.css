@@ -464,6 +464,7 @@ header {
     font-size: 1500%;
 }
 
+
 .inner-box {
     width: 100%;
     font-size: 10%;
@@ -535,8 +536,11 @@ header {
 }
 
 .sinxro-logo {
-    width: 10%;
+    width: 20%;
 
+}
+.sinxro-logo img{
+    width: 90px;
 }
 
 #contener h3 {
@@ -635,6 +639,16 @@ header {
         /* margin-left: 3%; */
         font-size: 100%;
     }
+    /* .connect img{
+        margin-right: 10px;
+        width: 24px;
+    }
+    .sinxro-logo img{
+        width: 95px;
+    }
+    .inner-connection p{
+        margin-left: 20px;
+    } */
 
 }
 @media screen and (min-width: 320px) and (max-width: 848px){
@@ -719,11 +733,16 @@ header {
         font-size: 11px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 376px){
+
+@media screen and (min-width: 320px) and (max-width: 379px){
+    #contener, #green, #black{
+        overflow-x: hidden;
+    }
     .inner-cont1{
         font-size: 11px;
     }
 }
+
 
 /*!!! GULTAC */
 
@@ -769,6 +788,7 @@ header {
     align-items:center;
     flex-wrap: wrap;
     gap: 50px;
+    padding: 20px;
 }
 .card{
     width: 30%;
@@ -777,7 +797,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items:center;
-    gap: 10px;
+    gap: 5px;
     box-shadow:0 0 10px rgb(92, 92, 92);
     border-radius: 27px;
 }
@@ -798,12 +818,12 @@ header {
 .inner-card p{
     font-size: 15px;
 }
-@media screen and (min-width:1440px){
+/* @media screen and (min-width:1440px){
     .card{
         border-radius: 36px;
         height: 330px;
     }
-}
+} */
 @media screen and (min-width:992px) and (max-width:1500px)
 {
     .inner-card{
@@ -818,13 +838,14 @@ header {
 @media  screen and (min-width:1009px) and (max-width:1279px){
     .inner-card{
         width: 92%;
-        gap: 25px;
+        gap: 30px;
     }
     .inner-card p{
         font-size: 13px;
     }
     .inner-card h3{
-        font-size: 18px;
+        width: 250px;
+        font-size: 19px;
     }
     .card{
         width: 30%;
@@ -832,15 +853,18 @@ header {
         border-radius:23px
     }
 }
-@media screen and (min-width:992px) and (max-width:1194px){
+@media screen and (min-width:992px) and (max-width:1223px){
     .card{
         width: 29.5%;
+    }
+    .inner-card{
+        gap: 40px;
     }
 }
 @media screen and (min-width:1009px) and (max-width:1116px){
 
 .inner-card{
-    gap: 35px;
+    gap: 40px;
 }
 .inner-card h3{
     width: fit-content;
@@ -849,7 +873,10 @@ header {
     border-radius:23px
 }
 }
-@media screen and (min-width:992px) and (max-width:1040px){
+@media screen and (min-width:992px) and (max-width:1070px){
+    .inner-card{
+        gap: 45px;
+    }
     .card{
         width: 29%;
     }
@@ -874,6 +901,9 @@ header {
 }
 
 @media screen and (min-width:320px) and (max-width:992px){
+    .informal-list, .inner-cont{
+        width: 85%;
+    }
     .inner-cont ul li{
         width: 600px;
         font-size: 20px;
@@ -911,7 +941,7 @@ header {
 }
 @media screen and (min-width:320px) and (max-width:972px){
     .card{
-        border-radius:36px
+        border-radius:32px
     }
     .inner-card{
         gap: 29px;
@@ -993,9 +1023,14 @@ header {
     .inner-cont h2, .cards-cont h2{
         font-size: 30px;
     }
+    .informal-list{
+        width: 85%;
+    }
     .inner-cont ul{
-        font-size: 10px;
-        margin-left: 40px;
+        width: 300px;
+    }
+    .inner-cont ul li{
+        width: 300px;
     }
     .inner-card h3{
         font-size:19px;
@@ -1007,14 +1042,17 @@ header {
     .inner-card p{
         font-size: 13px;
     }
+
+
 }
 @media screen and (min-width:320px) and (max-width:627px){
+
     .inner-cont h2, .cards-cont h2{
         font-size: 27px;
     }
     .inner-cont ul li{
-        width: 350px;
-        font-size: 16px;
+        width: 250px;
+        font-size: 14px;
     }
     .card{
         border-radius:20px;
@@ -1022,12 +1060,13 @@ header {
     }
 }
 @media screen and (min-width:400px) and (max-width:540px) {
+
     .inner-cont h2, .cards-cont h2{
         /* margin-left: 25px; */
         font-size: 25px;
     }
     .inner-cont ul{
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .inner-card{
         gap: 15px;
@@ -1090,6 +1129,9 @@ header {
     }
     .inner-card p{
         font-size: 12px;
+    }
+    .cards-list{
+        margin-left: 20px;
     }
 }
 @media screen and (min-width:320px) and (max-width:350px){
@@ -1448,6 +1490,10 @@ header {
         font-size: 15px;
         width: 320px;
         height: 80px;
+    }
+
+    .container3{
+        width: 350px;
     }
 }
 
