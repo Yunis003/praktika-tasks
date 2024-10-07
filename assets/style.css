@@ -779,7 +779,7 @@ header {
     align-items:center;
     gap: 10px;
     box-shadow:0 0 10px rgb(92, 92, 92);
-    border-radius: 38px;
+    border-radius: 27px;
 }
 .card img{
     width: 100%;
@@ -797,6 +797,12 @@ header {
 }
 .inner-card p{
     font-size: 15px;
+}
+@media screen and (min-width:1440px){
+    .card{
+        border-radius: 36px;
+        height: 330px;
+    }
 }
 @media screen and (min-width:992px) and (max-width:1500px)
 {
@@ -823,7 +829,7 @@ header {
     .card{
         width: 30%;
         height: 220px;
-        border-radius:25px
+        border-radius:23px
     }
 }
 @media screen and (min-width:992px) and (max-width:1194px){
@@ -891,7 +897,7 @@ header {
     .card{
         width: 50%;
         height: 310px;
-        border-radius: 33px;
+        border-radius: 31px;
     }
     .inner-card{
         gap: 30px;
@@ -1028,7 +1034,7 @@ header {
     }
     .card{
         width: 240px;
-        border-radius: 16px;
+        border-radius: 18px;
         height:195px;
     }
     .inner-card h3{
